@@ -1,19 +1,9 @@
 package Day2;
 
 import org.json.JSONObject;
-import org.json.JSONTokener;
 import org.testng.annotations.Test;
-
-import com.google.gson.JsonObject;
-
-import io.restassured.RestAssured;
-import io.restassured.internal.support.FileReader;
-
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-
 import java.io.File;
-import java.io.Reader;
 import java.util.HashMap;
 
 /* How many ways we can create request body
