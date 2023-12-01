@@ -1,12 +1,9 @@
 package Day5;
 
 import static io.restassured.RestAssured.*;
-import java.io.File;
-
 import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -80,4 +77,5 @@ public class ParsingJsonResponseData {
 		}
 		Assert.assertEquals(status, true);
 	}
+
 }
